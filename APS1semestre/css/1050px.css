@@ -1,0 +1,309 @@
+body { background-color:#F5F5F5; margin:0; padding:0; min-width:740px; }
+
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; } }
+	
+@-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; } }
+	
+@-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; } }
+	
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; } }
+
+#fadeIn {
+	-webkit-animation: fadeIn 1s ease-in-out;
+	-moz-animation: fadeIn 1s ease-in-out;
+	-o-animation: fadeIn 1s ease-in-out;
+	animation: fadeIn 1s ease-in-out; }
+
+/*	=============================================================
+	=================== Top Menu - Formatação ===================
+	============================================================= */
+	
+#topMenu {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:1050px;
+	height:90px;
+	background-color:white;
+	border-bottom:1px outset #DBDBDB;
+	border-top:1px outset #DBDBDB;
+	z-index:9; /* Verificar Depois */ }
+	
+#buttonsTopMenu {
+	position:fixed;
+	top:0px;
+	left:100%;
+	width:480px;
+	height:90px;
+	margin-left:-480px;
+	line-height:90px;
+	font-weight:bold;
+	font-family:Tahoma, "sans-serif";
+	font-size:13px;
+	z-index:10; /* Verificar Depois */ }
+
+.logoTopMenu { margin-left:45px; border:none; }
+.ulButtonsTopMenu { margin:0; padding:0; }
+.liButtonsTopMenu { display:inline-block; padding:0 10px; color:#393939; margin-left:20px; }
+.liButtonsTopMenu-Selected { display:inline-block; padding:0 10px; border-bottom:2px solid #55BC00; color:#55BC00; margin-left:20px; }
+.liButtonsTopMenu:hover, .liButtonsTopMenu-Selected:hover { color:#55BC00; font-size:15px; border-bottom:3px solid #55BC00; }
+#buttonsTopMenu a { text-decoration:none; }
+
+/*	=============================================================
+	=================== Top Body - Formatação ===================
+	============================================================= */
+
+#topBody {
+	position:absolute;
+	top:92px;
+	left:0px;
+	width:100%;
+	background-image:url("../img/imageTopBody.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	border-bottom:2px outset #DBDBDB;
+	padding-bottom:90px;
+	z-index:6; /* Verificar Depois */ }
+
+.textTopBody {
+	font-weight:bolder;
+	font-family:Arial, "sans-serif";
+	font-size:30px;
+	color:white;
+	text-align:center;
+	text-shadow:3px 2px 0 black;
+	margin-top:9.5%; }
+	
+.textTopBody a { text-decoration:none; color:#55BC00; }
+.textTopBody a:hover { text-decoration:underline; color:#8899E6; }
+
+/*	=============================================================
+	================= Middle Body - Formatação ==================
+	============================================================= */
+	
+#middleBody {
+	position:relative;
+	top:464px;
+	left:0px;
+	width:100%;
+	padding-bottom:70px;
+	float:left; }
+	
+.titleMiddleBody {
+	font-weight:bolder;
+	font-family:Monaco, monospace;
+	font-size:30px;
+	text-align:center;
+	margin:80px 220px 0 220px; }
+
+.textMiddleBody {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:17px;
+	text-align:left;
+	margin:0 100px;
+	padding:40px 0; }
+
+/*	=============================================================
+	================= Bottom Body - Formatação ==================
+	============================================================= */
+	
+#bottomBody {
+	position:relative;
+	top:433px;
+	left:0px;
+	width:100%;
+	float:left; }
+	
+#bottomBodyLeft {
+	position:relative;
+	top:0px;
+	width:50%;
+	float:left; }
+	
+#bottomBodyRight {
+	position:relative;
+	top:0px;
+	width:50%;
+	float:left; }
+	
+.titleBottomBody {
+	font-weight:bolder;
+	font-family:Monaco, monospace;
+	font-size:20px;
+	text-align:center;
+	margin:3px 40px 0 40px; }
+	
+.textBottomBody {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:17px;
+	text-align:center;
+	margin:0 50px;
+	padding:20px 0 10px 0; }
+
+.readMore {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:17px;
+	text-align:right;
+	margin:0 40px; }
+	
+.iconBottomBody { width:70px; height:70px; }
+.titleBottomBody a { text-decoration:none; color:black; }
+.titleBottomBody a:hover { text-decoration:underline; }
+.readMore a { color:#55BC00; text-decoration:none; }
+.readMore a:hover { color:#8899E6; text-decoration:underline; }
+
+/*	=============================================================
+	=================== Footer - Formatação =====================
+	============================================================= */
+	
+#footer {
+	position:relative;
+	top:573px;
+	left:0px;
+	width:100%;
+	height:80px;
+	background-color:black;
+	border-top:3px outset #55BC00;
+	line-height:80px;
+	float:left; }
+
+.textFooter {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:14px;
+	text-align:left;
+	color:white;
+	margin:0 0 0 20px; }
+	
+/*	=============================================================
+	================ Article Body - Formatação ==================
+	============================================================= */
+	
+#articleBody {
+	position:relative;
+	top:92px;
+	left:0px;
+	width:100%; }
+	
+#txtArticleBody {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:75%;
+	padding-bottom:110px; }
+	
+#imgTxtArticleBody {
+	position:relative;
+	left:50%;
+	margin-left:-275px;
+	width:550px;
+	background-color:white;
+	border:1px solid black;
+	box-shadow:2px 2px 0 RGBA(0,0,0,0.3);
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:13px; }
+	
+#menuArticleBody {
+	position:absolute;
+	top:50px;
+	left:77%;
+	width:21%;
+	background-color:white;
+	padding-bottom:22px;
+	box-shadow:3px 3px 0 RGBA(0,0,0,0.5);
+	border:1px solid black; /* Temp */ }
+
+.titleArticleBody {
+	font-weight:bolder;
+	font-family:Monaco, monospace;
+	font-size:30px;
+	text-align:center;
+	margin:60px 50px 0 50px; }
+
+.textArticleBody {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:17px;
+	text-align:center;
+	margin:0 30px;
+	padding:45px 0; }
+	
+.descriptionImgTxtArticleBody {
+	margin:0; padding:2px 0 6px 5px;
+	margin-left:0px; /* Temp */ }
+
+.titleMenuArticleBody {
+	font-weight:bold;
+	font-family:Calibri, "sans-serif";
+	font-size:17px;
+	margin:10px 20px; }
+	
+.liMenuArticleBody, .liMenuArticleBody-Selected {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:15px;
+	margin:0 35px;
+	padding-bottom:5px; }
+	
+.imgTxtArticleBody { width:550px; height:300px; border-bottom:1px solid black; }	
+.ulMenuArticleBody { list-style-type:circle; margin:15px 0 0 0; padding:0; }
+.liMenuArticleBody a { color:black; }	
+.liMenuArticleBody a:hover { color:#8899E6; font-size:17px; }
+hr { height:3px; background-color:#55BC00;}
+
+/*	=============================================================
+	=============== Article Footer - Formatação =================
+	============================================================= */
+	
+#articleFooter {
+	position:relative;
+	top:92px;
+	left:0px;
+	width:100%;
+	height:80px;
+	background-color:black;
+	border-top:3px outset #55BC00;
+	line-height:80px; }
+
+.textFooter {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:14px;
+	text-align:left;
+	color:white;
+	margin:0 0 0 20px; }
+	
+/*	=============================================================
+	=============== Contact Footer - Formatação =================
+	============================================================= */
+	
+#contactFooter {
+	position:absolute;
+	top:100%;
+	margin-top:-80px;
+	left:0px;
+	width:100%;
+	height:80px;
+	background-color:black;
+	border-top:3px outset #55BC00;
+	line-height:80px; }
+
+.textFooter {
+	font-weight:lighter;
+	font-family:Calibri, "sans-serif";
+	font-size:14px;
+	text-align:left;
+	color:white;
+	margin:0 0 0 20px; }	

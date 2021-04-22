@@ -1,0 +1,58 @@
+/* tamanhos específicos da página para dispositivos mobiles */
+
+@media screen and (max-width: 479px){                                                         /* smartphones */  
+      .header-top h1{font-size: 1.4em !important;}
+      .header-top p{font-size: 0.8em;}
+      .content-item{width: 95% !important; margin: 0 2.5% !important;}
+      .content-details h3{font-size: 1.2em;}
+      .statistic h3{font-size: 1.2em;}
+      .cases h3{font-size: 1.2em;}
+      .newsletter h3{font-size: 1.2em;}
+}
+@media screen and (max-width: 768px){                                                         /* tablet */
+	  .header-top h1{font: 400 1.8em "Roboto";}
+	  .logo{background: url(../images/logo_workshop_maior.png)no-repeat center top; }
+	  .content-two p{
+            width: 90% !important;
+            margin: 20px 5% !important;
+
+	  }
+	  .video{
+	  	  width: 80% !important;
+	  	  margin: 0 10% !important;
+      }
+
+      .content-item{width: 50%;}
+
+      .statistic-item{width: 100%; margin: 0 0 50px 0;}
+    
+      .case-video{width: 90%; margin: 20px 5%;}
+
+      .content-newsletter{width:90% !important; margin: 0 5% !important;}
+     
+}
+@media screen and (max-width: 989px){                                                              /* ipad */
+	  .header-top h1{font-size: 2.2em;}
+	  .content-two p{
+	  	   width: 70%; 
+	  	   margin: 20px 15%;
+      }
+	  .video{ 
+	  	width: 60%; 
+	  margin: 0 20%;
+      }
+      .content-newsletter{width: 80%; margin: 0 5%;}
+      form.form-newsletter input[type="text"], form input[type="email"]{width: 100%;}
+      form.form-newsletter button{width: 100%; margin: 10px 0;}
+
+}
+@media screen and (max-width: 1200px){                                                          /* notebook com tela menor */
+      .content-two p{
+	  	   width: 60%; 
+	  	   margin: 20px 20%;
+      }
+	  .video{ 
+	  	width: 50%; 
+	  margin: 0 25%;
+      }                                                  
+	  

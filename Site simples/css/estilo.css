@@ -1,0 +1,160 @@
+* {                      /* permite que todos os elementos tenha a fonte desejada */
+	font-family: Arial;  
+}
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+.topo {
+	height: 70px;
+	background-color: #68228B;
+	margin-left: 170px;
+	position: fixed;
+}
+
+.topointerior {       /* barra interna da logo blizzard */
+	  width: 1000px;
+	  margin: auto;
+	  color: #9932CC;
+	  
+	  
+	 
+	  
+}
+.logoblizzard {       /* logo blizzard */
+	 float-left;
+	 height: 10px;
+	 line-height: 50px; /* deixa no meio da borda */
+	 position: center;
+	 margin-left: 200px;
+}
+.menu {
+	float: right;
+
+	
+	
+}
+
+.menu ul,
+.menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.menu li {
+	 float:left;
+	 padding-left:10px;
+	 padding-right:10px;
+	 line-height: 70px;
+	 color: #BEBEBE;
+	 font-size: 15px;
+	 cursor: pointer; /* quando passar o mouse em cima no menu aparece uma mão */
+	 
+}
+.menu li:hover {   /* quando passar o mouse em cima */
+	 background-color: #244f6d;
+	 
+}
+
+
+.banner {
+     height: 515px;
+     background-color:#00008B;
+
+
+}
+.bannerinterior {
+	width: 1000px;
+	margin: auto;
+	
+	
+}
+.banneresquerda {
+    float: left;
+
+
+}
+
+.bannerdireita {
+   float: right;
+   margin-right: 0;
+
+}
+
+.frase1 {
+     font-size: 60px;
+     color: #CD0000;
+     margin-top: 110px;
+     font-weight: bold;
+
+}
+.frase2 {
+	font-size: 30px;
+	color:#FFFFFF;
+	margin-top: 30px;
+}
+
+.botao {
+	background-color: #FFA500;
+    color: #FFFFFF;
+    width: 282px;
+    height: 56px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: verdana;
+    text-align: center;
+    line-height: 56px;    
+    margin-top: 40px;
+    cursor: pointer;        /* aparece uma mao apos passar o mouse em cima do botao */
+    border-radius: 5px;    /* deixa a borda arredondada */
+}
+
+.conteudo {
+      height: 100%;
+      background-color: #00008B; 
+}
+
+.conteudointerno {
+      width: 1000px;
+      margin:auto;
+
+
+}
+.universos {
+     background-color: #00008B;
+     height: 90px;
+     font-size: 50px;
+     font-weight: bold;
+     text-align: center;
+     line-height: 70px; 
+     margin-right: 600px;
+     margin-left: 550px;
+     color: #FFFFFF;
+
+}
+
+.fotos img {
+     margin-left: 10px;
+     margin-right: 10px;
+     cursor: pointer;
+     margin-left: 40px;
+}
+.rodape {
+	background-color: #68228B;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.suaempresa {
+    text-align: center;
+    color: #0000FF;
+    font-size: 15px;
+    margin-right: 10px;
+
+}               
